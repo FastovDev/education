@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Работа с контейнерами.md",
+                "file": "Алгоритмы/Сложность алгоритмов.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Работа с контейнерами.md",
+                "file": "Алгоритмы/Сложность алгоритмов.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Работа с контейнерами.md",
+                "file": "Алгоритмы/Сложность алгоритмов.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Работа с контейнерами.md"
+                "file": "Алгоритмы/Сложность алгоритмов.md"
               }
             }
           }
@@ -148,8 +148,18 @@
   },
   "active": "46848ee31dcbb9c6",
   "lastOpenFiles": [
-    "Docker/Cheatsheet.md",
+    "Pasted image 20240704172858.png",
+    "Pasted image 20240704172329.png",
+    "Pasted image 20240704172246.png",
+    "Pasted image 20240704172217.png",
+    "Pasted image 20240704172138.png",
+    "Pasted image 20240704172131.png",
+    "Pasted image 20240704172114.png",
+    "Pasted image 20240704172100.png",
+    "Pasted image 20240704172013.png",
+    "Алгоритмы/Сложность алгоритмов.md",
     "Docker/Работа с контейнерами.md",
+    "Docker/Cheatsheet.md",
     "Docker/Без названия",
     "Javascript",
     "Брокеры",
