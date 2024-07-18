@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\LinkedList\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{319CE3F3-C2AE-4B6A-9A03-6F744C477760}|LinkedList\\LinkedList.csproj|d:\\\u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\linkedlist\\linkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{319CE3F3-C2AE-4B6A-9A03-6F744C477760}|LinkedList\\LinkedList.csproj|solutionrelative:linkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{319CE3F3-C2AE-4B6A-9A03-6F744C477760}|LinkedList\\LinkedList.csproj|d:\\\u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\linkedlist\\linkedlist\\linkedlistcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{319CE3F3-C2AE-4B6A-9A03-6F744C477760}|LinkedList\\LinkedList.csproj|solutionrelative:linkedlist\\linkedlistcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{319CE3F3-C2AE-4B6A-9A03-6F744C477760}|LinkedList\\LinkedList.csproj|d:\\\u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\linkedlist\\linkedlist\\linkedlistbasic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{319CE3F3-C2AE-4B6A-9A03-6F744C477760}|LinkedList\\LinkedList.csproj|solutionrelative:linkedlist\\linkedlistbasic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{319CE3F3-C2AE-4B6A-9A03-6F744C477760}|LinkedList\\LinkedList.csproj|d:\\\u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\linkedlist\\linkedlist\\linkedlistobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{319CE3F3-C2AE-4B6A-9A03-6F744C477760}|LinkedList\\LinkedList.csproj|solutionrelative:linkedlist\\linkedlistobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{319CE3F3-C2AE-4B6A-9A03-6F744C477760}|LinkedList\\LinkedList.csproj|d:\\\u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\linkedlist\\linkedlist\\linkedlistdoubly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{319CE3F3-C2AE-4B6A-9A03-6F744C477760}|LinkedList\\LinkedList.csproj|solutionrelative:linkedlist\\linkedlistdoubly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{319CE3F3-C2AE-4B6A-9A03-6F744C477760}|LinkedList\\LinkedList.csproj|d:\\\u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\linkedlist\\linkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{319CE3F3-C2AE-4B6A-9A03-6F744C477760}|LinkedList\\LinkedList.csproj|solutionrelative:linkedlist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{319CE3F3-C2AE-4B6A-9A03-6F744C477760}|LinkedList\\LinkedList.csproj|d:\\\u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\linkedlist\\linkedlist\\linkedlistdoublyobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{319CE3F3-C2AE-4B6A-9A03-6F744C477760}|LinkedList\\LinkedList.csproj|solutionrelative:linkedlist\\linkedlistdoublyobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{319CE3F3-C2AE-4B6A-9A03-6F744C477760}|LinkedList\\LinkedList.csproj|d:\\\u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\linkedlist\\linkedlist\\linkedlistobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{319CE3F3-C2AE-4B6A-9A03-6F744C477760}|LinkedList\\LinkedList.csproj|solutionrelative:linkedlist\\linkedlistobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,39 +54,73 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "LinkedListCircle.cs",
+              "DocumentMoniker": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\LinkedList\\LinkedList\\LinkedListCircle.cs",
+              "RelativeDocumentMoniker": "LinkedList\\LinkedListCircle.cs",
+              "ToolTip": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\LinkedList\\LinkedList\\LinkedListCircle.cs",
+              "RelativeToolTip": "LinkedList\\LinkedListCircle.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAuwFoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T11:30:16.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LinkedListDoublyObject.cs",
+              "DocumentMoniker": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\LinkedList\\LinkedList\\LinkedListDoublyObject.cs",
+              "RelativeDocumentMoniker": "LinkedList\\LinkedListDoublyObject.cs",
+              "ToolTip": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\LinkedList\\LinkedList\\LinkedListDoublyObject.cs",
+              "RelativeToolTip": "LinkedList\\LinkedListDoublyObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T11:52:24.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LinkedListDoubly.cs",
+              "DocumentMoniker": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\LinkedList\\LinkedList\\LinkedListDoubly.cs",
+              "RelativeDocumentMoniker": "LinkedList\\LinkedListDoubly.cs",
+              "ToolTip": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\LinkedList\\LinkedList\\LinkedListDoubly.cs",
+              "RelativeToolTip": "LinkedList\\LinkedListDoubly.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAswHMAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T11:51:40.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LinkedListBasic.cs",
               "DocumentMoniker": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\LinkedList\\LinkedList\\LinkedListBasic.cs",
               "RelativeDocumentMoniker": "LinkedList\\LinkedListBasic.cs",
               "ToolTip": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\LinkedList\\LinkedList\\LinkedListBasic.cs",
               "RelativeToolTip": "LinkedList\\LinkedListBasic.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAA7wFkAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T11:33:12.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T11:33:12.477Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "LinkedListObject.cs",
               "DocumentMoniker": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\LinkedList\\LinkedList\\LinkedListObject.cs",
               "RelativeDocumentMoniker": "LinkedList\\LinkedListObject.cs",
               "ToolTip": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\LinkedList\\LinkedList\\LinkedListObject.cs",
               "RelativeToolTip": "LinkedList\\LinkedListObject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T07:11:48.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T07:11:48.463Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\LinkedList\\LinkedList\\Program.cs",
               "RelativeDocumentMoniker": "LinkedList\\Program.cs",
               "ToolTip": "D:\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\LinkedList\\LinkedList\\Program.cs",
               "RelativeToolTip": "LinkedList\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwAwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-12T07:11:11.804Z",
               "EditorCaption": ""

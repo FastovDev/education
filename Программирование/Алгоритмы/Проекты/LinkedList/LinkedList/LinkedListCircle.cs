@@ -2,15 +2,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace LinkedList
 {
-    internal class LinkedListDoubly<T> : IEnumerable<T>, IEnumerable
+    internal class LinkedListCircle<T> : IEnumerable<T>, IEnumerable
     {
         LinkedListDoublyObject<T>? First;
-        LinkedListDoublyObject<T>? Last;
         int count;
 
         public int Count { get { return count; } }
@@ -36,7 +36,7 @@ namespace LinkedList
 
         public T? GetValueReverse(T value)
         {
-            LinkedListDoublyObject<T>? current = Last;
+            LinkedListDoublyObject<T>? current = First;
             while (current is not null && current.Value is not null)
             {
                 if (current.Value.Equals(value))
@@ -57,16 +57,19 @@ namespace LinkedList
             LinkedListDoublyObject<T>? linkedListObject = new LinkedListDoublyObject<T>(value);
 
             if (First is null)
-            { 
+            {
                 First = linkedListObject;
+                First.Next = First;
+                First.Prev = First;
             }
             else
-            { 
-                Last!.Next = linkedListObject;
-                linkedListObject.Prev = Last;
+            {
+                linkedListObject.Next = First;
+                linkedListObject.Prev = First.Prev;
+                First.Prev!.Next = linkedListObject;
+                First.Prev = linkedListObject;
             }
 
-            Last = linkedListObject;
             count++;
         }
         public void Add(LinkedListDoublyObject<T> linkedListObject)
@@ -77,12 +80,17 @@ namespace LinkedList
         public void AppendFirst(T value)
         {
             LinkedListDoublyObject<T>? linkedListObject = new LinkedListDoublyObject<T>(value);
-            linkedListObject.Next = First;
-            First!.Prev = linkedListObject;
-            First = linkedListObject;
 
-            if (count == 0)
-                Last = First;
+            if (First is not null)
+            {
+                linkedListObject.Next = First;
+                linkedListObject.Prev = First.Prev;
+                First.Prev!.Next = linkedListObject;
+                First.Prev = linkedListObject;
+                First = linkedListObject;
+            }
+            else
+                Add(value);                
 
             count++;
         }
@@ -101,6 +109,7 @@ namespace LinkedList
                     return true;
 
                 current = current.Next;
+                if (current == First) break;
             }
             return false;
         }
@@ -113,34 +122,24 @@ namespace LinkedList
         public bool Remove(T value)
         {
             LinkedListDoublyObject<T>? current = First;
-            LinkedListDoublyObject<T>? previous = null;
+
             while (current is not null && current.Value is not null)
             {
                 if (current.Value.Equals(value))
                 {
-                    if (previous is null)
+                    if (current == First)
                     {
-                        First = First?.Next;                        
-
-                        if (First is null)
-                            Last = null;
-                        else First.Prev = null;
+                        First = First.Next;
                     }
-                    else
-                    {
-                        previous.Next = current.Next;
-
-                        if (current.Next is null)
-                            Last = previous;
-                        else
-                            current.Next.Prev = previous;
-                    }
+                    current!.Next!.Prev = current.Prev;
+                    current!.Prev!.Next = current.Next;
 
                     count--;
+                    if (count == 0) Clear();
                     return true;
                 }
-                previous = current;
                 current = current.Next;
+                if (current == First) return false;
             }
             return false;
         }
@@ -173,7 +172,6 @@ namespace LinkedList
         public void Clear()
         {
             First = null;
-            Last = null;
             count = 0;
         }
 
@@ -181,10 +179,11 @@ namespace LinkedList
         {
             LinkedListDoublyObject<T>? current = First;
 
-            while (current!.Next is not null)
+            while (current is not null && current!.Next is not null)
             {
                 yield return current!.Value;
                 current = current.Next;
+                if (current == First) break;
             }
         }
 

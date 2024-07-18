@@ -90,13 +90,19 @@ namespace LinkedList
                 if (current.Value.Equals(value))
                 {
                     if (previous is null)
-                        First = current.Next;
+                    {
+                        First = First?.Next;
 
-                    if (First is null)
-                        Last = null;
+                        if (First is null)
+                            Last = null;
+                    }
+                    else
+                    {
+                        previous.Next = current.Next;
 
-                    if (current.Next is null)
-                        Last = previous;                    
+                        if (current.Next is null)
+                            Last = previous;
+                    }
 
                     count--;
                     return true;
