@@ -1,0 +1,15 @@
+D:\education\Программирование\Алгоритмы\Проекты\FIFO\MyStack\bin\Debug\net8.0\MyStack.exe
+D:\education\Программирование\Алгоритмы\Проекты\FIFO\MyStack\bin\Debug\net8.0\MyStack.deps.json
+D:\education\Программирование\Алгоритмы\Проекты\FIFO\MyStack\bin\Debug\net8.0\MyStack.runtimeconfig.json
+D:\education\Программирование\Алгоритмы\Проекты\FIFO\MyStack\bin\Debug\net8.0\MyStack.dll
+D:\education\Программирование\Алгоритмы\Проекты\FIFO\MyStack\bin\Debug\net8.0\MyStack.pdb
+D:\education\Программирование\Алгоритмы\Проекты\FIFO\MyStack\obj\Debug\net8.0\MyStack.GeneratedMSBuildEditorConfig.editorconfig
+D:\education\Программирование\Алгоритмы\Проекты\FIFO\MyStack\obj\Debug\net8.0\MyStack.AssemblyInfoInputs.cache
+D:\education\Программирование\Алгоритмы\Проекты\FIFO\MyStack\obj\Debug\net8.0\MyStack.AssemblyInfo.cs
+D:\education\Программирование\Алгоритмы\Проекты\FIFO\MyStack\obj\Debug\net8.0\MyStack.csproj.CoreCompileInputs.cache
+D:\education\Программирование\Алгоритмы\Проекты\FIFO\MyStack\obj\Debug\net8.0\MyStack.sourcelink.json
+D:\education\Программирование\Алгоритмы\Проекты\FIFO\MyStack\obj\Debug\net8.0\MyStack.dll
+D:\education\Программирование\Алгоритмы\Проекты\FIFO\MyStack\obj\Debug\net8.0\refint\MyStack.dll
+D:\education\Программирование\Алгоритмы\Проекты\FIFO\MyStack\obj\Debug\net8.0\MyStack.pdb
+D:\education\Программирование\Алгоритмы\Проекты\FIFO\MyStack\obj\Debug\net8.0\MyStack.genruntimeconfig.cache
+D:\education\Программирование\Алгоритмы\Проекты\FIFO\MyStack\obj\Debug\net8.0\ref\MyStack.dll

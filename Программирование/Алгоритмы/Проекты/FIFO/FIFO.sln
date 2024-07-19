@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIFO", "FIFO\FIFO.csproj", "{E814B5E6-74BA-423D-8622-D90A13E477F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStack", "MyStack\MyStack.csproj", "{A7F21A5A-EA13-4E01-A58F-D7F3DEF235C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E814B5E6-74BA-423D-8622-D90A13E477F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E814B5E6-74BA-423D-8622-D90A13E477F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E814B5E6-74BA-423D-8622-D90A13E477F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E814B5E6-74BA-423D-8622-D90A13E477F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F21A5A-EA13-4E01-A58F-D7F3DEF235C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F21A5A-EA13-4E01-A58F-D7F3DEF235C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F21A5A-EA13-4E01-A58F-D7F3DEF235C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F21A5A-EA13-4E01-A58F-D7F3DEF235C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A019B2B-6CEF-4066-A3B9-32F413CFD021}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\education\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\FIFO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F21A5A-EA13-4E01-A58F-D7F3DEF235C0}|MyStack\\MyStack.csproj|d:\\education\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\fifo\\mystack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F21A5A-EA13-4E01-A58F-D7F3DEF235C0}|MyStack\\MyStack.csproj|solutionrelative:mystack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F21A5A-EA13-4E01-A58F-D7F3DEF235C0}|MyStack\\MyStack.csproj|d:\\education\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\fifo\\mystack\\mystack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F21A5A-EA13-4E01-A58F-D7F3DEF235C0}|MyStack\\MyStack.csproj|solutionrelative:mystack\\mystack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E814B5E6-74BA-423D-8622-D90A13E477F7}|FIFO\\FIFO.csproj|d:\\education\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\fifo\\fifo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E814B5E6-74BA-423D-8622-D90A13E477F7}|FIFO\\FIFO.csproj|solutionrelative:fifo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E814B5E6-74BA-423D-8622-D90A13E477F7}|FIFO\\FIFO.csproj|d:\\education\\\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\\u043F\u0440\u043E\u0435\u043A\u0442\u044B\\fifo\\fifo\\myqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E814B5E6-74BA-423D-8622-D90A13E477F7}|FIFO\\FIFO.csproj|solutionrelative:fifo\\myqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyStack.cs",
+              "DocumentMoniker": "D:\\education\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\FIFO\\MyStack\\MyStack.cs",
+              "RelativeDocumentMoniker": "MyStack\\MyStack.cs",
+              "ToolTip": "D:\\education\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\FIFO\\MyStack\\MyStack.cs",
+              "RelativeToolTip": "MyStack\\MyStack.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:29:00.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\education\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\FIFO\\MyStack\\Program.cs",
+              "RelativeDocumentMoniker": "MyStack\\Program.cs",
+              "ToolTip": "D:\\education\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\FIFO\\MyStack\\Program.cs",
+              "RelativeToolTip": "MyStack\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:28:27.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyQueue.cs",
+              "DocumentMoniker": "D:\\education\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\FIFO\\FIFO\\MyQueue.cs",
+              "RelativeDocumentMoniker": "FIFO\\MyQueue.cs",
+              "ToolTip": "D:\\education\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\FIFO\\FIFO\\MyQueue.cs",
+              "RelativeToolTip": "FIFO\\MyQueue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T06:54:22.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\education\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\FIFO\\FIFO\\Program.cs",
+              "RelativeDocumentMoniker": "FIFO\\Program.cs",
+              "ToolTip": "D:\\education\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\\u0410\u043B\u0433\u043E\u0440\u0438\u0442\u043C\u044B\\\u041F\u0440\u043E\u0435\u043A\u0442\u044B\\FIFO\\FIFO\\Program.cs",
+              "RelativeToolTip": "FIFO\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T06:53:12.758Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
