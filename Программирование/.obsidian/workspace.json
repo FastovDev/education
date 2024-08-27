@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C Sharp/Базис/Управляемые и неуправляемые ресурсы.md",
+                "file": "C Sharp/Базис/Garbage collector/Стадии сборки мусора.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C Sharp/Базис/Управляемые и неуправляемые ресурсы.md",
+                "file": "C Sharp/Базис/Garbage collector/Стадии сборки мусора.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C Sharp/Базис/Управляемые и неуправляемые ресурсы.md",
+                "file": "C Sharp/Базис/Garbage collector/Стадии сборки мусора.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C Sharp/Базис/Управляемые и неуправляемые ресурсы.md"
+                "file": "C Sharp/Базис/Garbage collector/Стадии сборки мусора.md"
               }
             }
           }
@@ -161,10 +161,10 @@
   },
   "active": "e6a9227b77f122bc",
   "lastOpenFiles": [
-    "C Sharp/Базис/Garbage collector/Стадии сборки мусора.md",
     "C Sharp/Базис/Garbage collector/Описание работы.md",
-    "Алгоритмы/Сложность алгоритмов.md",
     "C Sharp/Базис/Управляемые и неуправляемые ресурсы.md",
+    "C Sharp/Базис/Garbage collector/Стадии сборки мусора.md",
+    "Алгоритмы/Сложность алгоритмов.md",
     "Docker/Cheatsheet.md",
     "C Sharp/Базис/Garbage collector",
     "Docker/Работа с контейнерами.md",
