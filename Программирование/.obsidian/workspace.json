@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e6a9227b77f122bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C Sharp/Базис/Управляемые и неуправляемые ресурсы.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Алгоритмы/Сложность алгоритмов.md",
+                "file": "C Sharp/Базис/Управляемые и неуправляемые ресурсы.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Алгоритмы/Сложность алгоритмов.md",
+                "file": "C Sharp/Базис/Управляемые и неуправляемые ресурсы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Алгоритмы/Сложность алгоритмов.md"
+                "file": "C Sharp/Базис/Управляемые и неуправляемые ресурсы.md"
               }
             }
           }
@@ -146,8 +159,15 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "46848ee31dcbb9c6",
+  "active": "e6a9227b77f122bc",
   "lastOpenFiles": [
+    "C Sharp/Базис/Garbage collector/Стадии сборки мусора.md",
+    "C Sharp/Базис/Garbage collector/Описание работы.md",
+    "Алгоритмы/Сложность алгоритмов.md",
+    "C Sharp/Базис/Управляемые и неуправляемые ресурсы.md",
+    "Docker/Cheatsheet.md",
+    "C Sharp/Базис/Garbage collector",
+    "Docker/Работа с контейнерами.md",
     "Pasted image 20240704172858.png",
     "Pasted image 20240704172329.png",
     "Pasted image 20240704172246.png",
@@ -157,9 +177,6 @@
     "Pasted image 20240704172114.png",
     "Pasted image 20240704172100.png",
     "Pasted image 20240704172013.png",
-    "Алгоритмы/Сложность алгоритмов.md",
-    "Docker/Работа с контейнерами.md",
-    "Docker/Cheatsheet.md",
     "Docker/Без названия",
     "Javascript",
     "Брокеры",
@@ -169,7 +186,6 @@
     "Git",
     "Docker",
     "Linux",
-    "Сервера",
     "Welcome.md"
   ]
 }
