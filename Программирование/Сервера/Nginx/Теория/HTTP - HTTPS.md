@@ -63,27 +63,13 @@
 
 1. Установите **Certbot**:
     
-    bash
-    
-    Копировать код
-    
     `sudo apt update sudo apt install certbot python3-certbot-nginx`
     
 2. Получите сертификат:
-    
-    bash
-    
-    Копировать код
     
     `sudo certbot --nginx -d yourdomain.com -d www.yourdomain.com`
     
 3. Перезагрузите Nginx:
     
-    bash
-    
-    Копировать код
-    
     `sudo systemctl reload nginx`
     
-
-Теперь ваш сайт защищён HTTPS.
