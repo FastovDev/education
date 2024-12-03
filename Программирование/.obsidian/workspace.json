@@ -8,31 +8,40 @@
         "type": "tabs",
         "children": [
           {
-            "id": "46848ee31dcbb9c6",
+            "id": "ec61bcaf7e6ce361",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Алгоритмы/Сложность алгоритмов.md",
+                "file": "Сервера/SSH/Основы.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "e6a9227b77f122bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C Sharp/Базис/Garbage collector/Стадии сборки мусора.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Основы"
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "1f551416f267b39b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "578a7a65386c1e00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Сервера/SSH/SCP через SSH.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SCP через SSH"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -52,7 +61,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -67,7 +78,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
             }
           },
           {
@@ -75,7 +88,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
             }
           }
         ]
@@ -98,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C Sharp/Базис/Garbage collector/Стадии сборки мусора.md",
+                "file": "Паттерны проектирования/Микросервисы/Паттерн Decompose by Subdomain (Разбиение по поддоменам).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +121,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Паттерн Decompose by Subdomain (Разбиение по поддоменам)"
             }
           },
           {
@@ -115,10 +132,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C Sharp/Базис/Garbage collector/Стадии сборки мусора.md",
+                "file": "Паттерны проектирования/Микросервисы/Паттерн Decompose by Subdomain (Разбиение по поддоменам).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Паттерн Decompose by Subdomain (Разбиение по поддоменам)"
             }
           },
           {
@@ -129,7 +148,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
             }
           },
           {
@@ -138,8 +159,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C Sharp/Базис/Garbage collector/Стадии сборки мусора.md"
-              }
+                "file": "Паттерны проектирования/Микросервисы/Паттерн Decompose by Subdomain (Разбиение по поддоменам).md"
+              },
+              "icon": "lucide-list",
+              "title": "Структура Паттерн Decompose by Subdomain (Разбиение по поддоменам)"
             }
           }
         ]
@@ -159,15 +182,17 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "e6a9227b77f122bc",
+  "active": "ec61bcaf7e6ce361",
   "lastOpenFiles": [
-    "C Sharp/Базис/Garbage collector/Описание работы.md",
-    "C Sharp/Базис/Управляемые и неуправляемые ресурсы.md",
-    "C Sharp/Базис/Garbage collector/Стадии сборки мусора.md",
+    "Сервера/SSH/SCP через SSH.md",
+    "Сервера/SSH/Основы.md",
+    "Сервера/SSH/Аутентификация.md",
+    "Сервера/SSH/Флаги SSH.md",
     "Алгоритмы/Сложность алгоритмов.md",
-    "Docker/Cheatsheet.md",
-    "C Sharp/Базис/Garbage collector",
-    "Docker/Работа с контейнерами.md",
+    "Сервера/Nginx/Теория/Балансировка нагрузки с помощью NGINX.md",
+    "Паттерны проектирования/Микросервисы/Паттерн Decompose by Subdomain (Разбиение по поддоменам).md",
+    "Сервера/SSH/Настройка SSH сервера.md",
+    "Сервера/SSH",
     "Pasted image 20240704172858.png",
     "Pasted image 20240704172329.png",
     "Pasted image 20240704172246.png",
@@ -177,15 +202,27 @@
     "Pasted image 20240704172114.png",
     "Pasted image 20240704172100.png",
     "Pasted image 20240704172013.png",
+    "Сервера/Nginx/Теория/HTTP - HTTPS.md",
+    "Сервера/Nginx/Теория/Обратный прокси-сервер.md",
+    "Сервера/Nginx/Теория/Аналоги.md",
+    "Сервера/Nginx/Теория/Базовое описание.md",
+    "Паттерны проектирования/Микросервисы/Decompose By Business Capability (Разбиение по бизнес-возможностям).md",
+    "C Sharp/Базис/Garbage collector/Описание работы.md",
+    "Сервера/Nginx/Теория",
+    "Сервера/Nginx/Nt.md",
+    "Сервера/Nginx",
+    "C Sharp/Базис/Garbage collector/Стадии сборки мусора.md",
+    "C Sharp/Базис/Управляемые и неуправляемые ресурсы.md",
+    "C Sharp/Базис/Stack, Heap - особенности.md",
+    "Docker/Cheatsheet.md",
+    "C Sharp/Базис/Garbage collector",
+    "Docker/Работа с контейнерами.md",
     "Docker/Без названия",
     "Javascript",
     "Брокеры",
     "Паттерны программирования",
     "Паттерны проектирования",
     "Методологии разработки",
-    "Git",
-    "Docker",
-    "Linux",
     "Welcome.md"
   ]
 }
