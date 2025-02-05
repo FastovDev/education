@@ -6,7 +6,7 @@
 
 1. Сервис управления пользователями:
 
-```
+```C#
 public class UserService
 {
     private readonly IUserRepository _userRepository;
@@ -33,7 +33,7 @@ public class UserService
 
 2. Сервис обработки заказов:
 
-```
+```C#
 public class OrderService
 {
     private readonly IOrderRepository _orderRepository;

@@ -11,7 +11,7 @@
 
 **1. Сервис управления книгами (Book Management)**
 
-```
+```C#
 public class BookService
 {
     private readonly IBookRepository _bookRepository;
@@ -39,7 +39,7 @@ public class BookService
 
 **2. Сервис управления пользователями (User Management)**
 
-```
+```C#
 public class UserService
 {
     private readonly IUserRepository _userRepository;
@@ -67,7 +67,7 @@ public class UserService
 
 **3. Сервис управления заказами (Order Management)**
 
-```
+```C#
 public class OrderService
 {
     private readonly IOrderRepository _orderRepository;
