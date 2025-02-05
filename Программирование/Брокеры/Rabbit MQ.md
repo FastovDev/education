@@ -72,7 +72,7 @@ AMQP (Advanced Message Queuing Protocol) — это стандарт для об
 
 Пример отправки сообщения:
 
-```
+```C#
 using RabbitMQ.Client;
 using System.Text;
 
@@ -101,7 +101,7 @@ Console.WriteLine(" [x] Sent {0}", message);
 
 Пример получения сообщения:
 
-```
+```C#
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;

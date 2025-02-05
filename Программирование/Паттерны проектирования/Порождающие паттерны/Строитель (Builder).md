@@ -9,7 +9,7 @@
 
 Формальное определение на C# могло бы выглядеть так:
 
-```
+```C#
 class Client
 {
     void Main()
@@ -87,7 +87,7 @@ class ConcreteBuilder : Builder
 
 Рассмотрим применение паттерна на примере выпечки хлеба. Как известно, даже обычный хлеб включает множество компонентов. Мы можем использовать для представления хлеба и его компонентов следующие классы:
 
-```
+```C#
 //мука
 class Flour
 {
@@ -129,7 +129,7 @@ class Bread
 
 Хлеб может иметь различную комбинацию компонентов: ржаной и пшеничной муки, соли, пищевых добавок. И нам надо обеспечить выпечку разных сортов хлеба. Для разных сортов хлеба может варьироваться конкретный набор компонентов, не все компоненты могут использоваться. И для этой задачи применим паттерн Builder:
 
-```
+```C#
 class Program
 {
     static void Main(string[] args)
@@ -225,7 +225,7 @@ class WheatBreadBuilder : BreadBuilder
 **Как применяется паттерн:**  
 `StringBuilder` позволяет поэтапно настраивать строку через методы вроде `Append`, `Insert`, `Remove` и т.д. После завершения сборки строка может быть получена вызовом `ToString()`.
 
-```
+```C#
 var builder = new StringBuilder();
 builder.Append("Hello");
 builder.Append(", ");
@@ -241,7 +241,7 @@ string result = builder.ToString();
 **Как применяется паттерн:**  
 Класс `ConfigurationBuilder` позволяет поэтапно добавлять источники конфигурации, вызывая методы `AddJsonFile`, `AddEnvironmentVariables` и т.д., а затем создавать объект `IConfiguration`.
 
-```
+```C#
 var builder = new StringBuilder();
 builder.Append("Hello");
 builder.Append(", ");
@@ -257,7 +257,7 @@ string result = builder.ToString();
 **Как применяется паттерн:**  
 Используется метод `IHttpClientBuilder` для добавления различных опций, таких как обработчики, базовый адрес, политики и т.д.
 
-```
+```C#
 services.AddHttpClient("MyClient", client => 
 { 
 	client.BaseAddress = new Uri("https://api.example.com"); 
@@ -273,7 +273,7 @@ services.AddHttpClient("MyClient", client =>
 **Как применяется паттерн:**  
 Методы LINQ позволяют добавлять фильтры, сортировки и прочие элементы, постепенно собирая запрос.
 
-```
+```C#
 var query = context.Users 
 	.Where(u => u.IsActive) 
 	.OrderBy(u => u.LastName);

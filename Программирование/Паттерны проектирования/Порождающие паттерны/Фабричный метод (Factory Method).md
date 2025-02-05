@@ -2,7 +2,7 @@
 
 Формальное определение паттерна на языке C# может выглядеть следующим образом:
 
-```
+```C#
 abstract class Product
 {}
  
@@ -42,7 +42,7 @@ class ConcreteCreatorB : Creator
 
 Теперь рассмотрим на реальном примере. Допустим, мы создаем программу для сферы строительства. Возможно, вначале мы захотим построить многоэтажный панельный дом. И для этого выбирается соответствующий подрядчик, который возводит каменные дома. Затем нам захочется построить деревянный дом и для этого также надо будет выбрать нужного подрядчика:
 
-```
+```C#
 class Program
 {
     static void Main(string[] args)
@@ -128,7 +128,7 @@ class WoodHouse : House
 **Как применяется:**  
 Метод `Task.Factory.StartNew` инкапсулирует создание задачи с заданными действиями, опциями и планировщиком.
 
-```
+```C#
 Task task = Task.Factory.StartNew(() =>
 {
     Console.WriteLine("Task is running");
@@ -145,7 +145,7 @@ Task task = Task.Factory.StartNew(() =>
 Метод возвращает экземпляр фабрики для заданного провайдера.
 
 
-```
+```C#
 DbProviderFactory factory = DbProviderFactories.GetFactory("System.Data.SqlClient");
 DbConnection connection = factory.CreateConnection();
 connection.ConnectionString = "your_connection_string";
@@ -163,7 +163,7 @@ connection.Open();
 Методы `XmlReader.Create` и `XmlWriter.Create` возвращают объекты, сконфигурированные для чтения или записи XML.
 
 
-```
+```C#
 using XmlReader reader = XmlReader.Create("data.xml");
 while (reader.Read())
 {
@@ -180,7 +180,7 @@ while (reader.Read())
 **Как применяется:**  
 Метод `CreateClient` возвращает объект `HttpClient`, сконфигурированный согласно определенным настройкам.
 
-```
+```C#
 var client = httpClientFactory.CreateClient("MyClient");
 var response = await client.GetAsync("https://api.example.com");
 
@@ -194,10 +194,9 @@ var response = await client.GetAsync("https://api.example.com");
 **Как применяется:**  
 Метод `CreateLogger` возвращает объект логера для заданной категории.
 
-```
+```C#
 ILogger logger = loggerFactory.CreateLogger("MyCategory");
 logger.LogInformation("Application started");
-
 ```
 
 ### **6. Activator.CreateInstance (System)**
@@ -208,10 +207,9 @@ logger.LogInformation("Application started");
 **Как применяется:**  
 Метод `CreateInstance` возвращает объект указанного типа.
 
-```
+```C#
 Type type = typeof(StringBuilder);
 object instance = Activator.CreateInstance(type);
-
 ```
 
 ### **7. ServiceProvider.GetService (Microsoft.Extensions.DependencyInjection)**
@@ -222,9 +220,8 @@ object instance = Activator.CreateInstance(type);
 **Как применяется:**  
 `GetService` создает объект с учетом его зависимостей, определенных в контейнере.
 
-```
+```C#
 IMyService service = serviceProvider.GetService<IMyService>();
-
 ```
 
 ### **Аналоги и альтернативы фабричного метода в .NET:**

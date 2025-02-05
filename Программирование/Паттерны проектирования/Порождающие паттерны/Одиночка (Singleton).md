@@ -6,7 +6,7 @@
 
 Классическая реализация данного шаблона проектирования на C# выглядит следующим образом:
 
-```
+```C#
 class Singleton
 {
     private static Singleton instance;
@@ -27,7 +27,7 @@ class Singleton
 
 Для применения паттерна Одиночка создадим небольшую программу. Например, на каждом компьютере можно одномоментно запустить только одну операционную систему. В этом плане операционная система будет реализоваться через паттерн синглтон:
 
-```
+```C#
 class Program
 {
     static void Main(string[] args)
@@ -75,7 +75,7 @@ class OS
 
 При применении паттерна синглтон в многопоточным программах мы можем столкнуться с проблемой, которую можно описать следующим образом:
 
-```
+```C#
 static void Main(string[] args)
 {
     (new Thread(() =>
@@ -97,13 +97,13 @@ static void Main(string[] args)
 
 В итоге мы сталкиваемся с проблемой инициализации синглтона, когда оба потока одновременно обращаются к коду:
 
-```
+```C#
 if (instance == null)
     instance = new OS(name);
 ```
 
 Чтобы решить эту проблему, перепишем класс синглтона следующим образом:
-```
+```C#
 class OS
 {
     private static OS instance;
@@ -137,7 +137,7 @@ class OS
 Выше были рассмотрены общие стандартные реализации: потоконебезопасная и потокобезопасная реализации паттерна. Но есть еще ряд дополнительных реализаций, которые можно рассмотреть.
 ### Потокобезопасная реализация без использования lock
 
-```
+```C#
 public class Singleton
 {
     private static readonly Singleton instance = new Singleton();
@@ -156,7 +156,7 @@ public class Singleton
 }
 ```
 Данная реализация также потокобезопасная, то есть мы можем использовать ее в потоках так:
-```
+```C#
 (new Thread(() =>
 {
     Singleton singleton1 = Singleton.GetInstance();
@@ -171,7 +171,7 @@ Console.WriteLine(singleton2.Date);
 Определение объекта синглтона в виде статического поля класса открывает нам дорогу к созданию Lazy-реализации паттерна Синглтон, то есть такой реализации, где данные будут инициализироваться только перед непосредственным использованием. Поскольку статические поля инициализируются перед первым доступом к статическому членам класса и перед вызовом статического конструктора (при его наличии). Однако здесь мы можем столкнуться с двумя трудностями.
 
 Во-первых, класс синглтона может иметь множество статических переменных. Возможно, мы вообще не будем обращаться к объекту синглтона, а будем использовать какие-то другие статические переменные:
-```
+```C#
 public class Singleton
 {
     private static readonly Singleton instance = new Singleton();
@@ -205,7 +205,7 @@ class Program
 В данном случае мы видим, что статическое поле instance инициализировано.
 
 Для решения этой проблемы выделим отдельный внутренний класс в рамках класса синглтона:
-```
+```C#
 public class Singleton
 {
     public string Date { get; private set; }
@@ -242,7 +242,7 @@ class Program
 
 Еще один способ создания синглтона представляет использование класса `Lazy<T>:`
 
-```
+```C#
 public class Singleton
 {
     private static readonly Lazy<Singleton> lazy = 
@@ -274,7 +274,7 @@ public class Singleton
 **Как применяется паттерн:**  
 Разработчики часто используют Singleton для хранения и повторного использования `HttpClient`.
 
-```
+```C#
 public class HttpClientSingleton
 {
     private static readonly HttpClient instance = new HttpClient();
@@ -294,7 +294,7 @@ public class HttpClientSingleton
 **Как применяется паттерн:**  
 `ConfigurationManager` фактически работает как Singleton, предоставляя статический доступ к конфигурационным настройкам.
 
-```
+```C#
 string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
 
 ```
@@ -307,7 +307,7 @@ string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnect
 **Как применяется паттерн:**  
 Большинство библиотек логирования предоставляют статические методы или объекты для доступа к логеру. Например, `LogManager` в NLog.
 
-```
+```C#
 private static readonly ILogger logger = LogManager.GetCurrentClassLogger();
 logger.Info("Application started");
 
@@ -322,7 +322,7 @@ logger.Info("Application started");
 **Как применяется паттерн:**  
 Обычно рекомендуется использовать общий экземпляр `Random` как Singleton.
 
-```
+```C#
 public class RandomSingleton
 {
     private static readonly Random instance = new Random();
@@ -340,9 +340,8 @@ public class RandomSingleton
 **Почему используется:**  
 `TaskScheduler.Default` предоставляет доступ к стандартному планировщику задач. Это глобальный объект, работающий как Singleton, чтобы задачи могли использовать общие ресурсы.
 
-```
+```C#
 Task.Factory.StartNew(() => Console.WriteLine("Running"), CancellationToken.None, TaskCreationOptions.None, TaskScheduler.Default);
-
 ```
 
 ### **Преимущества использования Singleton в .NET:**
@@ -357,7 +356,10 @@ Task.Factory.StartNew(() => Console.WriteLine("Running"), CancellationToken.None
 1. **Dependency Injection (DI):**  
     Вместо Singleton часто используется DI для управления временем жизни объектов. Например, `AddSingleton` в ASP.NET Core:
     
-    `services.AddSingleton<IMyService, MyService>();`
+    ```C#
+	services.AddSingleton<IMyService, MyService>();
+	```
+
     
 2. **Статические классы:**  
     В некоторых случаях вместо Singleton можно использовать статические классы, но они менее гибкие (нет интерфейсов, наследования и контроля за временем жизни).

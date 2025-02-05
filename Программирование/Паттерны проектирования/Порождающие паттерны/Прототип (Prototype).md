@@ -11,7 +11,7 @@
 
 Формальная структура паттерна на C# могла бы выглядеть следующим образом:
 
-```
+```C#
 class Client
 {
     void Operation()
@@ -66,7 +66,7 @@ class ConcretePrototype2 : Prototype
 
 Рассмотрим клонирование на примере фигур - прямоугольников и кругов:
 
-```
+```C#
 class Program
 {
     static void Main(string[] args)
@@ -134,7 +134,7 @@ class Circle : IFigure
 
 Но в данном случае надо заметить, что фреймворк .NET предлагает функционал для копирования в виде метода MemberwiseClone(). Например, мы могли бы изменить реализацию метода `Clone()` в классах прямоугольника и круга следующим образом:
 
-```
+```C#
 public IFigure Clone()
 {
     return this.MemberwiseClone() as IFigure;
@@ -143,7 +143,7 @@ public IFigure Clone()
 Причем данный метод был бы общим для обоих классов. И работа программы никак бы не изменилась.
 
 В то же время надо учитывать, что метод `MemberwiseClone()` осуществляет неполное копирование - то есть копирование значимых типов. Если же класс фигуры содержал бы объекты ссылочных типов, то оба объекта после клонирования содержали бы ссылку на один и тот же ссылочный объект. Например, пусть фигура круг имеет свойство ссылочного типа:
-```
+```C#
 class Point
 {
     public int X { get; set; }
@@ -170,7 +170,7 @@ class Circle : IFigure
 }
 ```
 В этом случае при изменении значений в свойстве Point начальной фигуры автоматически бы изменилось соответствующее значение и у клонированной фигуры:
-```
+```C#
 Circle figure = new Circle(30, 50, 60);
 Circle clonedFigure=figure.Clone() as Circle;
 figure.Point.X = 100; // изменяем координаты начальной фигуры
@@ -178,7 +178,7 @@ figure.GetInfo(); // figure.Point.X = 100
 clonedFigure.GetInfo(); // clonedFigure.Point.X = 100
 ```
 Чтобы избежать подобной ситуации, надо применить полное копирование:
-```
+```C#
 using System.IO;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -258,7 +258,7 @@ class Circle : IFigure
 **Как применяется паттерн:**  
 Классы, реализующие `ICloneable`, должны определять, как объект будет копироваться: поверхностно (shallow copy) или глубоко (deep copy).
 
-```
+```C#
 public class Person : ICloneable
 {
     public string Name { get; set; }
@@ -288,7 +288,7 @@ public class Address
 **Как применяется паттерн:**  
 Этот метод используется в реализации пользовательских копий (например, внутри метода `Clone`), чтобы не переписывать вручную копирование всех полей.
 
-```
+```C#
 public class Person
 {
     public string Name { get; set; }
@@ -308,7 +308,7 @@ public class Person
 **Как применяется:**  
 Объект сериализуется в поток (например, в JSON или XML), а затем десериализуется обратно в новый объект, который является копией оригинала.
 
-```
+```C#
 using System.Text.Json;
 
 var original = new Person { Name = "Alice" };
@@ -325,7 +325,7 @@ var clone = JsonSerializer.Deserialize<Person>(json);
 - `Clone`: создает пустую таблицу с той же структурой.
 - `Copy`: создает полную копию таблицы вместе с данными.
 
-```
+```C#
 DataTable table = new DataTable();
 DataTable clonedTable = table.Clone(); // Только структура
 DataTable copiedTable = table.Copy(); // Структура и данные
@@ -340,7 +340,7 @@ DataTable copiedTable = table.Copy(); // Структура и данные
 2. **Конструкторы копирования:** Иногда используются вместо прототипа для создания новых объектов на основе существующих.  
 	Пример:  
 
-```      
+```C#
 	public Person(Person other)
 	{
 		Name = other.Name;

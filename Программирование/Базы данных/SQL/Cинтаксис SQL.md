@@ -1,7 +1,7 @@
 #### DDL
 
 Создание таблицы:
-```
+```SQL
 CREATE TABLE courses ( 
 	course_no varchar(30), 
 	title text NOT NULL, 
@@ -11,12 +11,12 @@ CREATE TABLE courses (
 ```
 
 Удаление таблицы:
-```
+```SQL
 DROP TABLE courses
 ```
 
 Изменение таблицы:
-```
+```SQL
 CREATE TABLE courses ( 
 	course_no varchar(30), 
 	title text NOT NULL, 
@@ -37,7 +37,7 @@ CREATE TABLE courses (
 
 ##### INSERT INTO
 Добавление новых строк в таблицу:
-```
+```SQL
 INSERT INTO courses (course_no, title, credits) 
 VALUES ('CS301', 'Базы данных', 5);
 ```
@@ -51,7 +51,7 @@ VALUES ('CS301', 'Базы данных', 5);
 `ON CONFLICT DO NOTHING`
 
 Примеры:
-```
+```SQL
 INSERT INTO distributors (did, dname) VALUES
 	(5, 'Gizmo Transglobal'), 
 	(6, 'Associated Computing, Inc')
@@ -61,14 +61,14 @@ SET dname = EXCLUDED.dname;
 
 В данном примере предполагается, что определён уникальный индекс, ограничивающий значения в столбце `did`:
 
-```
+```SQL
 INSERT INTO distributors (did, dname) VALUES 
 	(7, 'Redline GmbH')
 ON CONFLICT (did) DO NOTHING;
 ```
 
 Предложение `WHERE` позволяет ограничить набор фактически изменяемых строк (однако любая существующая строка, не подлежащая изменению, всё же будет заблокирована):
-```
+```SQL
 -- Не менять данные существующих дистрибьюторов в зависимости от почтового индекса
 INSERT INTO distributors AS d (did, dname) VALUES 
 	(8, 'Anvil Distribution')
@@ -77,15 +77,14 @@ ON CONFLICT (did) DO UPDATE
     WHERE d.zipcode <> '21201';
 ```
 
-```
+```SQL
 -- Указать имя ограничения непосредственно в операторе (связанный индекс применяется для принятия решения о выполнении действия DO NOTHING)
 INSERT INTO distributors (did, dname) VALUES 
 	(9, 'Antwerp Design')
 ON CONFLICT ON CONSTRAINT distributors_pkey DO NOTHING;
 ```
 
-```
-
+```SQL
 -- Этот оператор может выбрать частичный уникальный индекс по "did" с предикатом "WHERE is_active", а может и просто использовать обычное ограничение уникальности по столбцу "did"
 INSERT INTO distributors (did, dname) VALUES 
 	(10, 'Conrad International')
@@ -99,7 +98,7 @@ ON CONFLICT (did) WHERE is_active DO NOTHING;
 `SELECT * FROM courses`
 
 Если мы хотим отфильтровать выборку данных, мы можем добавить команду WHERE, которая за счет указания логического выражения, функций с логическим значением или операций сравнения поможет сократить общую выборку. 
-```
+```SQL
 SELECT title, credits 
 FROM courses 
 WHERE credits > 8
@@ -110,7 +109,7 @@ WHERE credits > 8
 ##### UPDATE 
 Оператор для обновления данных в таблице. 
 Пример:
-```
+```SQL
 UPDATE courses 
 SET credits = credits + 1 
 WHERE course_no = 'CS305';
@@ -120,7 +119,7 @@ WHERE course_no = 'CS305';
 ##### DELETE
 Оператор удаления данных. 
 Пример:
-```
+```SQL
 DELETE FROM courses 
 WHERE course_no = 'CS305';
 ```
@@ -131,7 +130,7 @@ WHERE course_no = 'CS305';
 
 В результате применения следующего скрипта мы получим строку с уже измененным значением в результате работы скрипта
 
-```
+```SQL
 UPDATE courses 
 SET credits = 12 
 WHERE course_no = 'CS305' 
