@@ -4,38 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "72daafa3d466a9c3",
+        "id": "e3a986798c749c4d",
         "type": "tabs",
         "children": [
           {
-            "id": "dab707919e040b0f",
+            "id": "dd9c96d7b381b9de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Паттерны проектирования/Структурные паттерны/Общее описание группы паттернов.md",
+                "file": "HTTP/RESTful API Принципы проектирования.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Общее описание группы паттернов"
-            }
-          },
-          {
-            "id": "7afd93ede41abb4b",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "Программирование/Алгоритмы/Проекты/FIFO/FIFO/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-                "staged": false
-              },
-              "icon": "git-pull-request",
-              "title": "Diff View (.NETCoreApp,Version=v8.0.AssemblyAttributes.cs)"
+              "title": "RESTful API Принципы проектирования"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +128,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Теги"
@@ -154,10 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Паттерны проектирования/Микросервисы/Паттерн Decompose by Subdomain (Разбиение по поддоменам).md"
+                "file": "HTTP/RESTful API Принципы проектирования.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Паттерн Decompose by Subdomain (Разбиение по поддоменам)"
+              "title": "Структура RESTful API Принципы проектирования"
             }
           },
           {
@@ -188,9 +179,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7afd93ede41abb4b",
+  "active": "dd9c96d7b381b9de",
   "lastOpenFiles": [
+    "HTTP/Коды состояния HTTP.md",
+    "HTTP/RESTful API Принципы проектирования.md",
+    "HTTP/Методы GET, POST, PUT, DELETE.md",
+    "C Sharp/Базис/Асинхронность.md",
+    "HTTP",
+    "C Sharp/Базис/Работа с файлами.md",
+    "C Sharp/Базис/Стек, куча, структуры, классы, кортежи.md",
+    "C Sharp/Базис/Структуры данных.md",
     "Алгоритмы/Сложность алгоритмов.md",
+    "Паттерны проектирования/Структурные паттерны/Общее описание группы паттернов.md",
     "Unit-тестирование.md",
     "Pasted image 20241211110711.png",
     "2024-06-21.md",
@@ -209,15 +209,7 @@
     "C2 - ASP.NET/Каковы различия между стандартными WEB-серверами в ASP.NET Core.md",
     "C2 - ASP.NET/Какими способами можно добавлять Middleware в проект.md",
     "C2 - ASP.NET/Какие преимущества и недостатки есть у каждого из них (стандартные WEB-сервера).md",
-    "C2 - ASP.NET/Как добавить Middleware только для одного роута.md",
-    "C2 - ASP.NET/Какие WEB-серверы поддерживает ASP.NET Core по умолчанию.md",
-    "C2 - ASP.NET/Как можно создать цепочку из Middleware для одного роута.md",
-    "C2 - ASP.NET/Как можно изменять стандартные WEB-серверы в проекте.md",
     "C2 - ASP.NET",
-    "Docker/Установка.md",
-    "Docker/Управление портами.md",
-    "Docker/Сети.md",
-    "Docker/Постоянные данные.md",
     "Брокеры/Apache Kafka",
     "Брокеры/RabbitMQ",
     "Pasted image 20240704172858.png",
@@ -234,7 +226,6 @@
     "Базы данных/SQL",
     "Паттерны проектирования/Дополнительные паттерны и принципы",
     "Паттерны проектирования/Поведенческие паттерны",
-    "Паттерны проектирования/Структурные паттерны/Без названия",
-    "Паттерны проектирования/Структурные паттерны"
+    "Паттерны проектирования/Структурные паттерны/Без названия"
   ]
 }
