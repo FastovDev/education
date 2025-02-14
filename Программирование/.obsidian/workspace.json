@@ -20,8 +20,22 @@
               "icon": "lucide-file",
               "title": "Общее описание группы паттернов"
             }
+          },
+          {
+            "id": "7afd93ede41abb4b",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "Программирование/Алгоритмы/Проекты/FIFO/FIFO/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (.NETCoreApp,Version=v8.0.AssemblyAttributes.cs)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +54,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -173,20 +188,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dab707919e040b0f",
+  "active": "7afd93ede41abb4b",
   "lastOpenFiles": [
-    "Паттерны проектирования/Порождающие паттерны/Фабричный метод (Factory Method).md",
-    "Паттерны проектирования/Порождающие паттерны/Строитель (Builder).md",
-    "Паттерны проектирования/Порождающие паттерны/Прототип (Prototype).md",
-    "Паттерны проектирования/Порождающие паттерны/Одиночка (Singleton).md",
-    "Паттерны проектирования/Порождающие паттерны/Абстрактная фабрика (Abstract Factory).md",
-    "Паттерны проектирования/Поведенческие паттерны/Общее описание группы паттернов.md",
-    "Паттерны проектирования/Микросервисы/Decompose By Business Capability (Разбиение по бизнес-возможностям).md",
-    "Паттерны проектирования/Микросервисы/Паттерн Decompose by Subdomain (Разбиение по поддоменам).md",
-    "Паттерны проектирования/Дизайн-паттерны/Module.md",
-    "Docker/Работа с контейнерами.md",
-    "Docker/Cheatsheet.md",
+    "Алгоритмы/Сложность алгоритмов.md",
+    "Unit-тестирование.md",
     "Pasted image 20241211110711.png",
+    "2024-06-21.md",
+    "C2 - ASP.NET/В чем различия app.Use() и app.Run() при добавлении Middleware.md",
+    "C Sharp/Базис/1. Переменные.md",
+    "C2 - ASP.NET/Какие типы фильтров есть в ASP.NET Core и как их применять.md",
+    "C2 - ASP.NET/Что такое WWWROOT и как с ним работать.md",
+    "C2 - ASP.NET/Что такое SignalR и как его использовать в проекте.md",
+    "C2 - ASP.NET/Что делают методы service.AddTransient(), service.AddScoped() и service.AddSingleton() и в чем между ними разница.md",
+    "C2 - ASP.NET/Какие виды transports поддерживаются и в чем особенности каждого transport-типа (signalR).md",
+    "C2 - ASP.NET/На какие типы можно разделить все Middleware.md",
+    "C2 - ASP.NET/Рассказать про разницу между Minimal API и MVC в деталях. В каких случаях стоит применять то или иное.md",
+    "C2 - ASP.NET/Можно ли использовать какие-то дополнительные нестандартные WEB-серверы.md",
+    "C2 - ASP.NET/Какие антипаттерны есть у Dependency Injection при работе с ASP.NET Core.md",
+    "C2 - ASP.NET/Какой WEB-сервер лучше всего подходит для запуска в Production.md",
+    "C2 - ASP.NET/Каковы различия между стандартными WEB-серверами в ASP.NET Core.md",
+    "C2 - ASP.NET/Какими способами можно добавлять Middleware в проект.md",
+    "C2 - ASP.NET/Какие преимущества и недостатки есть у каждого из них (стандартные WEB-сервера).md",
+    "C2 - ASP.NET/Как добавить Middleware только для одного роута.md",
+    "C2 - ASP.NET/Какие WEB-серверы поддерживает ASP.NET Core по умолчанию.md",
+    "C2 - ASP.NET/Как можно создать цепочку из Middleware для одного роута.md",
+    "C2 - ASP.NET/Как можно изменять стандартные WEB-серверы в проекте.md",
+    "C2 - ASP.NET",
+    "Docker/Установка.md",
+    "Docker/Управление портами.md",
+    "Docker/Сети.md",
+    "Docker/Постоянные данные.md",
+    "Брокеры/Apache Kafka",
+    "Брокеры/RabbitMQ",
     "Pasted image 20240704172858.png",
     "Pasted image 20240704172329.png",
     "Pasted image 20240704172246.png",
@@ -196,30 +229,12 @@
     "Pasted image 20240704172114.png",
     "Pasted image 20240704172100.png",
     "Pasted image 20240704172013.png",
-    "C Sharp/Базис/Stack, Heap - особенности.md",
-    "C Sharp/Базис/Управляемые и неуправляемые ресурсы.md",
-    "C Sharp/Базис/Garbage collector/Стадии сборки мусора.md",
-    "C Sharp/Базис/Garbage collector/Описание работы.md",
-    "Сервера/SSH/5. SCP через SSH.md",
-    "Сервера/SSH/4. Флаги SSH.md",
-    "Сервера/SSH/3. Настройка SSH сервера.md",
-    "Сервера/SSH/2. Аутентификация.md",
-    "Сервера/SSH/1. Основы.md",
-    "Сервера/Nginx/Теория/12. Все команды.md",
-    "Сервера/Nginx/Теория/11. Файл конфигурации с перечисленными темами.md",
-    "Сервера/Nginx/Теория/10. Аналоги.md",
-    "Сервера/Nginx/Теория/9. Nginx как почтовый прокси-сервер.md",
-    "Сервера/Nginx/Теория/8. Защита от DDOS.md",
-    "Сервера/Nginx/Теория/7. WebSockets.md",
     "Паттерны проектирования/Дизайн-паттерны",
     "Базы данных/NOSQL",
     "Базы данных/SQL",
     "Паттерны проектирования/Дополнительные паттерны и принципы",
     "Паттерны проектирования/Поведенческие паттерны",
     "Паттерны проектирования/Структурные паттерны/Без названия",
-    "Паттерны проектирования/Структурные паттерны",
-    "Паттерны проектирования/Порождающие паттерны",
-    "Сервера/SSH",
-    "Сервера/Nginx/Теория"
+    "Паттерны проектирования/Структурные паттерны"
   ]
 }
