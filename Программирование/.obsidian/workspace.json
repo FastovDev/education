@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CI-CD/GitHub Actions и GitLab CI-CD.md",
+                "file": "ASP.NET Core/DI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GitHub Actions и GitLab CI-CD"
+              "title": "DI"
             }
           }
         ],
@@ -208,38 +208,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b6f76c3055818d28",
+  "active": "e8eefd436ad81754",
   "lastOpenFiles": [
-    "Git/Git и GitHub.md",
+    "C Sharp/LINQ/Основы.md",
+    "ASP.NET Core/DI.md",
+    "ASP.NET Core/Асинхронность.md",
+    "Методологии разработки/YAGNI.md",
+    "Методологии разработки/KISS.md",
+    "Методологии разработки/DRY.md",
+    "Методологии разработки/SOLID.md",
+    "Dapper/Основы.md",
+    "ASP.NET Core/SignalR.md",
+    "C2 - ASP.NET/Можно ли использовать какие-то дополнительные нестандартные WEB-серверы.md",
+    "Entity Framework Core/Базис.md",
+    "Dapper",
+    "ASP.NET Core/ASP.NET Core Middleware.md",
+    "Docker/Основные команды.md",
+    "Docker/Основы.md",
     "CI-CD/GitHub Actions и GitLab CI-CD.md",
+    "Git/Git и GitHub.md",
     "CI-CD",
     "Тестирование/Юнит-тестирование (xUnit, NUnit, MSTest).md",
-    "Docker/Основные команды.md",
     "Docker/Dockerfile.md",
     "Docker/docker L1 common.md",
     "Docker/Compose.md",
     "Docker/Установка.md",
     "Docker/Cheatsheet.md",
     "ASP.NET Core/Конфигурация приложений.md",
-    "ASP.NET Core/ASP.NET Core Middleware.md",
     "ASP.NET Core/Работа с JSON в ASP.NET Core.md",
     "ASP.NET Core/Контроллеры, маршрутизация и модели в ASP.NET Core.md",
     "ASP.NET Core/Основы MVC и Web.Api.md",
-    "HTTP/RESTful API Принципы проектирования.md",
     "ASP.NET Core",
-    "HTTP/Коды состояния HTTP.md",
-    "HTTP/Методы GET, POST, PUT, DELETE.md",
-    "C Sharp/Базис/Асинхронность.md",
     "HTTP",
-    "C Sharp/Базис/Работа с файлами.md",
-    "C Sharp/Базис/Стек, куча, структуры, классы, кортежи.md",
-    "C Sharp/Базис/Структуры данных.md",
-    "Алгоритмы/Сложность алгоритмов.md",
-    "Паттерны проектирования/Структурные паттерны/Общее описание группы паттернов.md",
-    "Unit-тестирование.md",
     "Pasted image 20241211110711.png",
-    "2024-06-21.md",
-    "C2 - ASP.NET/В чем различия app.Use() и app.Run() при добавлении Middleware.md",
     "C2 - ASP.NET",
     "Брокеры/Apache Kafka",
     "Брокеры/RabbitMQ",
@@ -254,7 +255,6 @@
     "Pasted image 20240704172013.png",
     "Паттерны проектирования/Дизайн-паттерны",
     "Базы данных/NOSQL",
-    "Базы данных/SQL",
-    "Паттерны проектирования/Дополнительные паттерны и принципы"
+    "Базы данных/SQL"
   ]
 }
