@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e3a986798c749c4d",
+        "id": "35efa83763da0f16",
         "type": "tabs",
         "children": [
           {
-            "id": "e8eefd436ad81754",
+            "id": "bcfffb9e4b1ee711",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CI-CD/Практическая реализация.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Практическая реализация"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -179,8 +175,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e8eefd436ad81754",
+  "active": "bcfffb9e4b1ee711",
   "lastOpenFiles": [
+    "Брокеры/RabbitMQ/Rabbit MQ.md",
+    "Брокеры/Основы.md",
+    "Брокеры/RabbitMQ/Установка RabbitMQ.md",
+    "Брокеры/Masstransit/Основы.md",
+    "Брокеры/Apache Kafka/Основы.md",
+    "C Sharp/Базис/1. Переменные.md",
+    "CI-CD/Практическая реализация.md",
     "CI-CD/Продвинутый уровень.md",
     "CI-CD/GitHub Actions и GitLab CI-CD.md",
     "Паттерны проектирования/Дополнительные паттерны и принципы/Observability.md",
@@ -188,12 +191,7 @@
     "Паттерны проектирования/Микросервисы/Отказоустойчивость.md",
     "Паттерны проектирования/Микросервисы/Надежность Circuit Breaker, Polly.md",
     "Паттерны проектирования/Микросервисы/Распределенные системы, консистентность.md",
-    "Брокеры/Основы.md",
-    "Брокеры/Apache Kafka/Основы.md",
-    "Брокеры/Masstransit/Основы.md",
     "Брокеры/Masstransit",
-    "Брокеры/RabbitMQ/Установка RabbitMQ.md",
-    "Брокеры/RabbitMQ/Rabbit MQ.md",
     "Паттерны проектирования/Дополнительные паттерны и принципы/Feature Flags и A-B тестирование.md",
     "Паттерны проектирования/Архитектурные паттерны/Event Sourcing.md",
     "Паттерны проектирования/Архитектурные паттерны/Hexagonal Architecture.md",
@@ -205,10 +203,8 @@
     "C Sharp/Производительность, работа с памятью.md",
     "ASP.NET Core/Логирование и мониторинг.md",
     "Kubernetes/Основы.md",
-    "CI-CD/Практическая реализация.md",
     "Kubernetes",
     "Docker/Compose.md",
-    "Тестирование/Мокирование данных.md",
     "Паттерны проектирования/Архитектурные паттерны",
     "Dapper",
     "CI-CD",
